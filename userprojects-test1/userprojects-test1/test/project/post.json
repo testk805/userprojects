@@ -1,0 +1,16 @@
+{
+  "queryparameters": "",
+  "headerparameters": "",
+  "input": {
+    "customerName": "string",
+    "orderDate": "string",
+    "totalAmount": "number",
+    "items": [
+      {
+        "productId": "string",
+        "quantity": "number"
+      }
+    ]
+  },
+  "output": "{}"
+}
