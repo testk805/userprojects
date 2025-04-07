@@ -1,0 +1,14 @@
+{
+  "name": "order-management-system",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "dotenv": "^8.2.0",
+    "body-parser": "^1.19.0"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
