@@ -1,0 +1,9 @@
+{
+  "queryparameters": "",
+  "headerparameters": "",
+  "input": {
+    "city": "string",
+    "unit": "string"
+  },
+  "output": "{}"
+}
