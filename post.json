@@ -1,0 +1,18 @@
+{
+  "queryparameters": "",
+  "headerparameters": "",
+  "input": {
+    "customerId": "integer",
+    "orderDate": "string (date)",
+    "status": "string",
+    "totalAmount": "number",
+    "items": [
+      {
+        "productId": "integer",
+        "quantity": "integer",
+        "price": "number"
+      }
+    ]
+  },
+  "output": "{}"
+}
