@@ -1,0 +1,1 @@
+'const express = require("express");\nconst bodyParser = require("body-parser");\nconst app = express();\nconst routes = require("./routes");\nconst dotenv = require("dotenv");\ndotenv.config();\n\napp.use(bodyParser.json());\napp.use("/api", routes);\n\nconst PORT = process.env.PORT || 3000;\napp.listen(PORT, () => {\n  console.log(`Server is running on port ${PORT}`);\n});'

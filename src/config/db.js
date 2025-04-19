@@ -1,0 +1,1 @@
+'const mongoose = require("mongoose");\n\nconst connectDB = async () => {\n  try {\n    await mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });\n    console.log("MongoDB connected...");\n  } catch (err) {\n    console.error(err.message);\n    process.exit(1);\n  }\n};\n\nmodule.exports = connectDB;'
